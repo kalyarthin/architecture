@@ -8,9 +8,9 @@
         }
         .header nav{
             position: fixed;
-            top: 8rem;
+            top: 6rem;
             right: -120%;
-            height: calc(100vh - 8rem);
+            height: calc(100vh - 6rem);
             width: 100vw;
             background: rgba(0,0,0,.5);
             z-index: 1000;
@@ -47,7 +47,14 @@
                                  }
                                                                
 }
+
+
+
+
+
+
 @media(max-width:400px){
+    
     .home .hero .text1 {
             font-size: 3.5rem;
             width: 35rem;
@@ -59,5 +66,39 @@
             width: 33rem;
           
         }
+       
+
+}
+@media(max-width:290px) {
+
+    .home .hero .text1 {
+        font-size: 2.5rem;
+        width: 25rem;
+
+    }
+
+    .home .hero .text2 {
+        font-size: 1.5rem;
+        width: 23rem;
+
+    }
+   
+                                 .header nav ul {
+                                     height: 100%;
+                                     width: 30rem;
+                                     background: #fff;
+                                     flex-flow: column;
+                                     justify-content: center;
+                                    
+                                 }
+                         .header nav ul li a {
+                             display: block;
+                             padding: .5rem 0;
+                             border: .1rem solid rgba(0, 0, 0, .3);
+                             width: 20rem;
+                             border-radius: 5rem;
+                             text-align: center;
+                         }
+
 
 }
